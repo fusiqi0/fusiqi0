@@ -1,0 +1,19 @@
+---
+title: "final report"
+output: html_document
+---
+
+github:https://github.com/fusiqi0/fusiqi0
+Name: Siqi Fu
+Partner: Lu Han 
+
+  Twitter is an online news and social networking service where users post and read short messages called “tweets”. Twitter is one of the most popular social media and it can reflect people’s attitude toward important events happened in United Stated and even over the whole world. In this project, we are required to compare tweets from different locations. Before figuring out our final topic, we did some overall comparisons among different areas like distribution of the length of tweets in different areas and the distribution of number of tweets at different time period in different areas. 
+After that, to make our project more specific, we decide to compare people’s attitudes toward presidential competition in different areas, and we present our finds through maps, wordcloud and shiny  app.
+At first, we captured 5000 tweets in the area of United States, and see their distributions over different locations. In this graph, each dot represents one tweet, and  through the plot we find that the dots near Los Angeles,Chicago and Boston are densest.  We then pick these three locations out to draw the tweets  distribution in these three locations. 
+After that we use the sentiment packages to divide these tweets into three categories: positive, negative and neutral. We captured 7000 tweets among these three locations. In this three location, Boston has the highest portion of positive tweets; Chicago has the highest neutral positive tweets and LA has the lowest proportion of positive tweets. 
+Then we use word cloud package to show the frequency of words in the tweets which mention Trump. In the comparison cloud, we combine the most frequently mentioned words in one word cloud picture. In this picture, we find that the most frequent words mentioned in Chicago are Russia, investigation and foreign, etc. In Boston, the most frequently mentioned words are humanality, working,Russia, class, etc. In LA, the most frequently words are Russia, devastating, etc.From this graph, we can see that these people in this three places have same concentration like Russia, but they have many other different concentrations like class, work, etc.
+Admittedly, our result does not match real world fact considering the small sample size and the limitation of time period. However, from our output we can still see the difference attitudes toward Trump in different areas. 
+
+
+
+
